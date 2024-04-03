@@ -1,18 +1,6 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-//import components here
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
 
-
-export default function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  )
-}
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+ReactDOM.render(<App />, document.getElementById('root'));

@@ -1,5 +1,5 @@
 import LoginComponent from "./pages/LoginComponent";
-import img from "./assets/network-bg.jpg"
+import img from "./assets/node-bg.jpg"
 import "./App.css"
 //import components here
 

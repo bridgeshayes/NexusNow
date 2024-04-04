@@ -1,22 +1,25 @@
-import "../App.css"
+import "../App.css";
 
 export default function LoginComponent() {
   return (
     <>
-      <div className="d-flex login-back vh-100 align-items-center">
-        <div className="card d-flex col-10 offset-1 login-card-back">
-          <div className="card-header">
-            <h3 className="d-flex justify-content-center">Login</h3>
-          </div>
-          <div className="card-body">
-            <form > {/* Add 'action="" method=""' later when backend is in development! */}
-              <label htmlFor="txtUsername" className="form-label">Username</label>
-              <input id="txtUsername" type="email" className="form-control" placeholder="BlurryBackground" />
-              <label htmlFor="txtPassword" className="form-label">Password</label>
-              <input id="txtPassword" type="password" className="form-control" placeholder="BobbyDropTables!" />
-              <button className="btn col-6 offset-3 mt-2 btn-nexus-theme text-white" type="submit"><strong>Login</strong></button>
-            </form>
-          </div>
+      <div className="d-flex login-back vh-100 justify-content-center col-12 align-items-center direction">
+        <div>
+          <h1 className="txt-font txt-color txt-lg"><strong>Sign in!</strong></h1>
+        </div>
+        <div className="col-7 mt-3">
+          <form>
+            <div className="form__group field col-12">
+              <input id="txtUsername" type="text" className="form-control-lg mb-3 col-12 form__field" placeholder="Username" aria-label="username"/>
+              <label for="txtUsername" className="form__label">Username</label>
+            </div>
+            <div className="form__group field col-12">
+              <input id="txtPassword" type="text" className="form-control-lg col-12 form__field" placeholder="Password" aria-label="password"/>
+              <label for="txtPassword" className="form__label">Password</label>
+            </div>
+            <a href="" className="link-forgot txt-font txt-color txt-sm mt-3">Forgot Password?</a>
+            <button className="btn btn-lg btn-nexus-theme col-12 mt-5 txt-font text-white"><strong>Login</strong></button>
+          </form>
         </div>
       </div>
     </>

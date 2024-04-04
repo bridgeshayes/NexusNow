@@ -5,3 +5,11 @@
 .login-back{
     background-image: linear-gradient(#203772e5, #86a0e3e5);
 }
+
+.login-card-back {
+    background-image: linear-gradient(#ffffffe5, #93a2c9e5);
+}
+
+.btn-nexus-theme {
+    background-image: linear-gradient(#2a61ece5, #7e88a2e5);
+}

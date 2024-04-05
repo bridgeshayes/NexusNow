@@ -18,7 +18,8 @@ export default function LoginComponent() {
               <label for="txtPassword" className="form__label">Password</label>
             </div>
             <a href="" className="link-forgot txt-font txt-color txt-sm mt-3">Forgot Password?</a>
-            <button className="btn btn-lg btn-nexus-theme col-12 mt-5 txt-font text-white" type="button"><strong>Login</strong></button>
+            <button className="btn btn-lg btn-nexus-main-theme col-12 mt-5 txt-font text-white" type="button"><strong>Login</strong></button>
+            <button className="btn btn-lg btn-secondary col-12 mt-5 txt-font text-white" type="button"><strong>Register an account</strong></button>
           </form>
         </div>
       </div>

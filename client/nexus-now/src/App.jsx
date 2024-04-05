@@ -14,9 +14,9 @@ export default function App() {
         <div className="col-5 p-0">
           <LoginComponent />
         </div>
-        <div className="col-5 p-0" style={{display: 'none'}}>
+        {/* <div className="col-5 p-0" style={{display: 'none'}}>
           <Register />
-        </div>
+        </div> */}
       </div>
     </>
   );
